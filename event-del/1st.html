@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Delegation</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="buttons">
+      <button class="buttonClass">Click me</button>
+      <button class="buttonClass">Click me</button>
+      <!-- buttons... -->
+      <button class="buttonClass">Click me</button>
+    </div>
+
+    <script>
+      const buttons = document.getElementsByClassName("buttonClass");
+      for (const button of buttons) {
+        button.addEventListener("click", () =>{
+            alert('button click')
+            console.log('clicked')
+        } );
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+#one{
+    width: 400px;
+    height: 400px;
+     background-color: orange;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+#two{
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#three{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(16, 81, 212);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
