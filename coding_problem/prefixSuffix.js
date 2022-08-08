@@ -22,4 +22,4 @@
     
 
  }
- console.log( 'ans is',common('abcab'))
+ console.log( 'ans is',common('abcab '))
