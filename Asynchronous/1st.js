@@ -4,3 +4,4 @@ function a(){
 }
 a()
 window.console.log('end')
+

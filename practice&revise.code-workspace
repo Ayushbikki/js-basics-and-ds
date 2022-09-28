@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "..\\ReactLearn"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ReactInterview"
+		},
+		{
+			"path": "..\\ReactTesting"
+		},
+		{
+			"path": "..\\javascript interview"
+		},
+		{
+			"path": "..\\cssHtmlInterview"
+		},
+		{
+			"path": "..\\Typescript"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "Javascript"
+	}
+}

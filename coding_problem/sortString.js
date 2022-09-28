@@ -1,6 +1,7 @@
 let s='this is good';
-console.log(s.split(''))
-console.log(s.split('').sort().join('')) // ['t', 'h', 'i', 's', ' ', 'i', 's', ' ', 'g', 'o', 'o', 'd']
+console.log(s.split('')) // ['t', 'h', 'i', 's', ' ', 'i', 's', ' ', 'g', 'o', 'o', 'd']
+console.log(s.split('').sort())  // [ ' ', ' ', 'd', 'g', 'h', 'i', 'i', 'o', 'o', 's', 's', 't' ]
+console.log(s.split('').sort().join('')) // dghiioosst
 let t=s.replaceAll(' ','').split('').sort().join('-')
 console.log({t})
 let w= s.split(' ').sort()

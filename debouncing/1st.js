@@ -9,7 +9,7 @@ const debounce = function(getdata,d){
     return function(){
         //let context =this,
         //args=arguments
-    clearTimeout(timer)
+   clearTimeout(timer)
    timer= setTimeout(()=>{
         getdata.apply()
     },d)
