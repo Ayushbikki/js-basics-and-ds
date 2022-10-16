@@ -10,7 +10,8 @@ function quickSort(arr,left=0,right=arr.length-1){
     }
     return arr;
 }
-function pivot(arr,pivotIndex=0,lastIndex=arr.length-1){
+function pivot(arr,pivotIndex,lastIndex){
+    //pivotIndex=0, lastIndex=arr.length-1
     let swapIndex=pivotIndex;
     for(let i=pivotIndex+1;i<=lastIndex;i++){
         if(arr[i]<arr[pivotIndex]){

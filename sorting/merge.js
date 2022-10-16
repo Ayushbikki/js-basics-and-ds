@@ -36,6 +36,28 @@ function mergeSort(arr){
     let mid= Math.floor(arr.length/2)
     let left=arr.slice(0,mid);
     let right=arr.slice(mid)
-    return merge(mergeSort(left),mergeSort(right))
+   let l= mergeSort(left)
+   let r= mergeSort(right)
+   //console.log(l,r)
+    return merge(l,r)
+   // return merge(mergeSort(left),mergeSort(right))
 }
-console.log(mergeSort([1,3,7,8,2,4,5,6]))
+
+function mergeSort1(arr,left,right){
+    if(left == right) return [arr[right]];
+  
+    
+    let mid = left + Math.floor(0.5 * (right-left));
+    
+    let leftSub = mergeSort1(arr,left,mid);
+    let rightSub = mergeSort1(arr,mid+1,right);
+    
+    return this.merge(leftSub,rightSub);
+}
+let arr=[1,3,8,7,2,4,5,6]
+let n=arr.length-1;
+console.log(arr)
+console.log(mergeSort(arr))
+console.log(mergeSort1(arr,0,n))
+
+//3,1,4,2
