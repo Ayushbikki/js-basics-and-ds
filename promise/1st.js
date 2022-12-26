@@ -23,6 +23,29 @@ let prom = new Promise(function(resolve,reject){
     }
 })
 console.log(prom)*/
+
+
+/* from geeks example 
+
+var promise = new Promise(function(resolve, reject) { 
+  const x = "geeksforgeeks"; 
+  const y = "geeksforgeeks"
+  if(x === y) { 
+    resolve(); 
+  } else { 
+    reject(); 
+  } 
+}); 
+    
+promise. 
+    then(function () { 
+        console.log('Success, You are a GEEK'); 
+    }). 
+    catch(function () { 
+        console.log('Some error has occurred'); 
+    });
+
+    */
 function prom(comp){
     console.log("fetching the data")
     return  new Promise(function(resolve,reject){

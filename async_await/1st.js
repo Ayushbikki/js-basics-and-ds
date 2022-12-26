@@ -2,6 +2,7 @@
     let test= async function() {//can be written in this way also
    return "testing"
 }
+
 //test() //if we don't return from async func then it will treated as normal func
 
 //console.log(test())
@@ -20,7 +21,7 @@ console.log('5')
 async function getData(){
     console.log('processing')
     //console.log('a')
-  const res= await fetch("/json/1st.json")
+  const res= await fetch("/1st.json")
   console.log('b')
   let stu=  await res.json()
    return stu
